@@ -57,7 +57,8 @@ namespace Test2
         /// </summary>
         public static void Question1()
         {
-            
+            Console.Write("Enter a starting value: ");
+            int num = Convert.ToInt32(Console.ReadLine());
         }
 
         /// <summary>
